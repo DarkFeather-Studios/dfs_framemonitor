@@ -6,7 +6,7 @@ local LastUpload = GetGameTimer()
 
 
 
-AddEventHandler("kashacters:PlayerSpawned", function ()
+AddEventHandler("playerSpawned", function ()
     local FPS = -1
     local LastCheck = GetGameTimer()
     while true do
